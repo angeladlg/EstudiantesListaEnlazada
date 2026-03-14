@@ -120,6 +120,7 @@ namespace EstudiantesListaEnlazada
                 {
                     // Seleccionar la fila encontrada en el DataGridView
                     fila.Selected = true;
+                    dataGridViewDatos.CurrentCell = fila.Cells[0];
                     encontrado = true;
                     break;
 
